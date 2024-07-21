@@ -60,7 +60,6 @@ If you need more explanation about how to do this, please check this medium arti
 ## Usage
 
 ### 1. Data Collection
-
 - Run `capture.py` to capture images and label them.
 - Ensure you have a variety of images for diverse representation.
 - For face detection, use haarcascades from [this GitHub repository](https://github.com/opencv/opencv/tree/master/data/haarcascades).
@@ -80,28 +79,24 @@ If you need more explanation about how to do this, please check this medium arti
 - Ensure proper connection between the face recognition system and the database for real-time information retrieval.
 
 ### 3. Model Training
-
 - Execute `model.py` to train the face recognition model.
 - This script will process the images in the `/DataSet` folder.
 - The training process will generate a `training.xml` file, which will be used for face recognition.
 - Ensure you have sufficient computational resources, as training may take some time depending on the dataset size.
 
 ### 4. Face Recognition
-
 - Run `sql.py` to test the face detection and recognition capabilities.
 - This script will use the trained model to recognize faces in real-time or from stored images.
 - Recognized faces will be displayed with their corresponding labels.
 - Additional information from the database will be shown for each recognized individual.
 
 ### 5. Model Evaluation
-
 - Use `eval.py` to assess the performance of your trained model.
 - This script will run the model against a test set and calculate various evaluation metrics.
 - Key metrics such as accuracy, precision, recall, and F1-score will be reported.
 - Review these metrics carefully to understand the model's strengths and limitations.
 
 ### 6. System Implementation
-
 - Execute `finish.py` for the complete implementation of the face recognition system.
 - This script combines all the previous steps into a cohesive application.
 - Detected faces will be displayed in real-time with customized labels.
