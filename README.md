@@ -152,6 +152,3 @@ If you need more explanation about how to do this, please check this medium arti
 
 Feel free to open issues or submit pull requests. Contributions are welcome!
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
